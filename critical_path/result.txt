@@ -1,0 +1,13 @@
+Total time: 19
+Task< id=1; name=Begin1; time=4; StartTime_early=0; FinishTime_early=4; StartTime_late=2; FinishTime_late=6; previousTasks=[]; nextTasks=[2, 3]> TimeReserve = 2
+Task< id=4; name=Begin2; time=5; StartTime_early=0; FinishTime_early=5; StartTime_late=0; FinishTime_late=5; previousTasks=[]; nextTasks=[3, 5]> Cricical
+Task< id=2; name=CommonTask1; time=3; StartTime_early=4; FinishTime_early=7; StartTime_late=6; FinishTime_late=9; previousTasks=[1]; nextTasks=[6]> TimeReserve = 2
+Task< id=3; name=CommonTask2; time=4; StartTime_early=5; FinishTime_early=9; StartTime_late=8; FinishTime_late=12; previousTasks=[1, 4]; nextTasks=[7]> TimeReserve = 3
+Task< id=5; name=CommonTask3; time=4; StartTime_early=5; FinishTime_early=9; StartTime_late=5; FinishTime_late=9; previousTasks=[4]; nextTasks=[8]> Cricical
+Task< id=6; name=CommonTask4; time=3; StartTime_early=7; FinishTime_early=10; StartTime_late=9; FinishTime_late=12; previousTasks=[2]; nextTasks=[7]> TimeReserve = 2
+Task< id=7; name=CommonTask5; time=2; StartTime_early=10; FinishTime_early=12; StartTime_late=12; FinishTime_late=14; previousTasks=[3, 6]; nextTasks=[10]> TimeReserve = 2
+Task< id=8; name=CommonTask6; time=3; StartTime_early=9; FinishTime_early=12; StartTime_late=9; FinishTime_late=12; previousTasks=[5]; nextTasks=[9]> Cricical
+Task< id=10; name=End1; time=5; StartTime_early=12; FinishTime_early=17; StartTime_late=14; FinishTime_late=19; previousTasks=[7]; nextTasks=[]> TimeReserve = 2
+Task< id=9; name=CommonTask7; time=2; StartTime_early=12; FinishTime_early=14; StartTime_late=12; FinishTime_late=14; previousTasks=[8]; nextTasks=[11]> Cricical
+Task< id=11; name=End2; time=5; StartTime_early=14; FinishTime_early=19; StartTime_late=14; FinishTime_late=19; previousTasks=[9]; nextTasks=[]> Cricical
+
